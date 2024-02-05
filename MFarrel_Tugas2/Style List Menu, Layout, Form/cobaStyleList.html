@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  	body{
+  		font-family: Helvetica, Arial, sans-serif;
+  	}
+
+  	.navbar{
+  		overflow: hidden;
+  		background-color: #333;
+  	}
+
+  	.navbar a{
+  		float: left;
+  		font-size: 16px;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  	}
+
+  	.dropdown {
+  		float: left;
+  		overflow: hidden;
+  	}
+  	
+  	.dropbtn {
+  		color: white;
+  	}
+
+  	.dropdown .dropbtn{
+  		font-size: 16px;
+  		border: none;
+  		outline: none;
+  		padding: 14px 16px;
+  		background-color: inherit;
+  		font-family: inherit;
+  		margin: 0;
+  	}
+
+  	.navbar a:hover, .dropdown:hover .dropbtn{
+  		background-color: red;
+  	}
+
+  	.dropdown-content{
+  		display: none;
+  		position: absolute;
+  		background-color: #f9f9f9;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+  	}
+
+  	.dropdown-content a{
+  		float: none;
+  		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+  		text-align: left;
+  	}
+
+  	.dropdown-content a:hover{
+  		background-color: #ddd;
+  	}
+
+  	.dropdown:hover .dropdown-content{
+  		display: block;
+  	}
+
+  	*{
+  		box-sizing: border-box;
+  	}
+
+  	header{
+  		background-color: #666;
+  		padding: 30px;
+  		text-align: center;
+  		font-size: 35px;
+  		color: white;
+  	}
+
+  	nav {
+  		float: left;
+  		width: 30%;
+  		height: 300px;
+  		background: #ccc;
+  		padding: 20px;
+  	}
+
+  	nav ul{
+  		list-style-type: none;
+  		padding: 0;
+  	}
+
+  	article{
+  		float: left;
+  		padding: 20px;
+  		width: 70%;
+  		background-color: #f1f1f1;
+  		height: 300px;
+  	}
+
+  	section:after{
+  		content: "";
+  		display: table;
+  		clear: both;
+  	}
+
+  	footer{
+  		background-color: #777;
+  		padding: 10px;
+  		text-align: left;
+  		color: black;
+  	}
+
+  	img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   input[type=submit]{
+   	margin: 22px 0 22px 0;
+
+   }
+
+  	@media (max-width: 600px){
+  		nav, article{
+  			width: 100%;
+  			height: auto;
+  		}
+  	}
+  </style>
+</head>
+
+<body>
+	<div class="navbar">
+		<a href="#home">Home</a>
+		<a href="#news">News</a>
+		<div class="dropdown">
+			<button class="dropbtn">Dropdown</button>
+			<div class="dropdown-content">
+				<a href="#">Link 1</a>
+	            <a href="#">Link 2</a>
+		        <a href="#">Link 3</a>
+			</div>
+	    </div>
+	    <a href="StyleForm.html">Login</a>
+	</div>
+
+	<header>
+		<h2>Kota di Indonesia</h2>
+	</header>
+	<section>
+		<nav>
+			<ul>
+				<img src="https://asset.kompas.com/crops/CHI1JSo3QqmggvVZ2Yk_5OFjd7Q=/0x0:0x0/750x500/data/photo/2020/09/15/5f60704f808f7.jpg" alt="jakarta" width="350" border=0>
+			</ul>
+		</nav>
+		<article>
+			<h1>Jakarta</h1>
+			<p> Ibu kota Jakarta merupakan suatu wilayah yang padat penduduk dan menjadi pusat pemerintahan Republik Indonesia. DKI Jakarta mempunyai banyak tempat rekreasi seperti Pulau Seribu, Taman Impian Jaya Ancol, dan juga beberapa pulau yang ada disekitar teluk Jakarta.</p>
+			<p> Dahulu pernah dikenal dengan beberapa nama di antaranya Sunda Kelapa, Jayakarta, dan Batavia. Di dunia internasional Jakarta juga mempunyai julukan J-Town, atau lebih populer lagi The Big Durian karena dianggap kota yang sebanding New York City (Big Apple) di Indonesia.
+            Jakarta memiliki luas sekitar 661,52 km² (lautan: 6.977,5 km²), dengan penduduk berjumlah 10.187.595 jiwa (2011). Wilayah metropolitan Jakarta (Jabodetabek) yang berpenduduk sekitar 28 juta jiwa, merupakan metropolitan terbesar di Asia Tenggara atau urutan kedua di dunia.</p>
+		</article>
+
+		<nav>
+			<ul>
+				<img src="https://asset.kompas.com/crops/G9d_w914-_OjnpjKq5wq70ibLiQ=/0x0:0x0/750x500/data/photo/2020/01/12/5e1aedbf5e548.jpg" alt="depok" width="350" border=0>
+			</ul>
+		</nav>
+		<article>
+			<h1>Depok</h1>
+			<p> Depok merupakan Pusat Pemerintahan yang berbatasan langsung dengan Wilayah Daerah Khusus Ibu Kota Jakarta, Kota Depok juga merupakan wilayah penyangga Ibu Kota Negara yang diarahkan untuk kota pemukiman, kota pendidikan, pusat pelayanan perdagangan dan jasa, kota pariwisata serta sebagai kota resapan air.</p>
+			<p> Nama Depok bukanlah singkatan, melainkan sebutan nama pribumi asli yang sering dari kata DEPROK atau duduk santai ala melayu. Mengutip dari Wikipedia, penamaan tersebut tidak terlepas dari perjalanan Prabu Siliwangi yang singgah di kawasan Beji. Keindahan dan keasrian Depok pada saat itu membuat Prabu Siliwangi men-deprok di kawasan yang tak jauh dari Sungai Ciliwung.</p>
+		</article>
+
+		<nav>
+			<ul>
+				<img src="https://img.okezone.com/content/2022/03/18/406/2563664/dear-traveler-berwisata-ke-surabaya-kini-wajib-daftar-online-heSQausQxS.JPG" alt="surabaya" width="350" border=0>
+			</ul>
+		</nav>
+		<article>
+			<h1>Surabaya</h1>
+			<p> Kota Surabaya adalah ibukota provinsi Jawa Timur, Indonesia. Surabaya merupakan kota terbesar kedua di Indonesia setelah Jakarta. Dengan jumlah penduduk metropolisnya yang lebih dari 4 juta jiwa (perhitungan pada tahun 2007), Surabaya merupakan pusat bisnis, perdagangan, industri, dan pendidikan di kawasan timur Pulau Jawa dan sekitarnya.</p>
+			<p> Asal-usul Kota Surabaya versi dongeng atau cerita yang tenar di masyarakat. Konon terjadi perkelahian sengit antara ikan hiu, yaitu sura atau suro, dengan buaya yaitu baya atau boyo.  Mereka berkelahi untuk memperebutkan mangsa. Akibat perkelahian itu, air di sekitar keduanya menjadi merah oleh darah.  Sura menggigit baya di pangkal ekor sebelah kanan, sehingga ekor baya membengkok ke kiri. Sebaliknya, baya juga menggigit ekor sura.  Pertarungan antara kedua binatang itu sangat berkesan bagi masyarakat Surabaya, sehingga nama Surabaya kerap dikaitkan dengan cerita tersebut.</p>
+		</article>
+	</section>
+	<footer>
+		<h3>Apakah anda tertarik dengan artikel ini?</h3>
+		<form>
+			<input type="radio" name="Sangat tertarik" value="sangat tertarik">Sangat Tertarik<br>
+			<input type="radio" name="Biasa saja" value="biasa saja">Biasa saja<br>
+			<input type="radio" name="Tidak tertarik" value="tidak tertarik">tidak Tertarik<br>
+			<input type="submit" value="Submit">
+		</form>
+		<h3>Apa Kota favorit anda?</h3>
+		<form>
+			<input type="checkbox" name="Jakarta" value="jakarta">Jakarta<br>
+			<input type="checkbox" name="Depok" value="depok">Depok<br>
+			<input type="checkbox" name="Surabaya" value="surabaya">Surabaya<br>
+			<input type="submit" value="Submit">
+		</form>
+	</footer>
+
+</body>
+</html>
