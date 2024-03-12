@@ -3,7 +3,7 @@
 ## Profil
 Nama : Muhamad Farrel Rizqullah
 
-Kelas : JWD A
+Kelas : VSGA - JWD A
 
 ## Gambaran Umum
 
